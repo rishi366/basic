@@ -6,7 +6,7 @@ pipeline {
 			steps {
                 echo "Git checkout is onn"
        
-                }
+                
             }
 	    }
         			
