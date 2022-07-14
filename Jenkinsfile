@@ -5,9 +5,7 @@ pipeline {
 		stage('Git-Checkout'){
 			steps {
                 echo "Git checkout is onn"
-              //  withCredentials([gitUsernamePassword(credentialsId: 'my-access-jenkins-token',
-              //   gitToolName: 'git-tool')]) {
-              //   sh 'git fetch --all'
+       
                 }
             }
 	    }
